@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pack & Dash | Smart Logistics</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+
+                <img
+                    src="jpeg/logo.jpeg"
+                    alt="Pack & Dash">
+
+                <b>Pack & Dash</b>
+
+            </a>
+
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a
+                        href="#home"
+                        data-en="Home"
+                        data-id="Beranda">
+
+                        Home
+
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#services"
+                        data-en="Services"
+                        data-id="Layanan">
+
+                        Services
+
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#platforms"
+                        data-en="Selling Platforms"
+                        data-id="Platform Penjualan">
+
+                        Selling Platforms
+
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#process"
+                        data-en="How it works"
+                        data-id="Cara Kerja">
+
+                        How it works
+
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#about"
+                        data-en="About Us"
+                        data-id="Tentang Kami">
+
+                        About Us
+
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#contact"
+                        data-en="Contact"
+                        data-id="Kontak">
+
+                        Contact
+
+                    </a>
+                </li>
+
+            </ul>
+
+
+
+            <div class="nav-right">
+
+                <div class="language">
+
+                    <button id="languageBtn">
+                        en ▾
+                    </button>
+
+                    <div
+                        class="language-menu"
+                        id="languageMenu">
+
+                        <button onclick="changeLanguage('en')">
+                            English
+                        </button>
+
+                        <button onclick="changeLanguage('id')">
+                            Bahasa
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <a
+                    href="#contact"
+                    class="nav-button"
+                    data-en="Get Started →"
+                    data-id="Mulai Sekarang →">
+
+                    Get Started →
+
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section
+        class="hero"
+        id="home">
+
+        <div class="hero-text">
+
+            <small
+                data-en="SMART LOGISTICS FOR ONLINE BUSINESSES"
+                data-id="SOLUSI LOGISTIK CERDAS UNTUK BISNIS ONLINE">
+
+                SMART LOGISTICS FOR ONLINE BUSINESSES
+
+            </small>
+
+
+
+            <h1>
+
+                <span
+                    data-en="Scale Your Online Brand"
+                    data-id="Kembangkan Brand Online Anda">
+
+                    Scale Your Online Brand
+
+                </span>
+
+                <span
+                    data-en="While we handle the operation."
+                    data-id="Sementara kami menangani operasionalnya.">
+
+                    While we handle the operation.
+
+                </span>
+
+            </h1>
+
+
+
+            <p
+                data-en="From receiving and storage to picking, packing and shipping preparation, we take care of the work behind your orders so you can focus on selling and growing your business."
+                data-id="Dari penerimaan dan penyimpanan barang hingga proses picking, packing, dan persiapan pengiriman, kami menangani seluruh proses di balik pesanan Anda, sehingga Anda bisa lebih fokus berjualan dan mengembangkan bisnis.">
+
+                From receiving and storage to picking, packing and shipping preparation, we take care of the work behind your orders so you can focus on selling and growing your business.
+
+            </p>
+
+
+
+            <div class="buttons">
+
+                <a
+                    href="#contact"
+                    class="button"
+                    data-en="Get Started →"
+                    data-id="Mulai Sekarang →">
+
+                    Get Started →
+
+                </a>
+
+
+
+                <a
+                    href="#process"
+                    class="button outline"
+                    data-en="How it works"
+                    data-id="Cara Kerja">
+
+                    How it works
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HERO RIGHT: FULFILMENT FLOW -->
+<div class="fulfilment-visual">
+
+    <!-- subtle background -->
+    <div class="visual-circle circle-one"></div>
+    <div class="visual-circle circle-two"></div>
+
+    <!-- connection line -->
+    <div class="flow-line"></div>
+
+    <!-- Receive -->
+    <div class="flow-card card-receive">
+        <div class="card-number">01</div>
+        <div class="card-icon">📦</div>
+        <div>
+            <h3>Receive</h3>
+            <p>Products arrive</p>
+        </div>
+    </div>
+
+    <!-- Store -->
+    <div class="flow-card card-store">
+        <div class="card-number">02</div>
+        <div class="card-icon">▦</div>
+        <div>
+            <h3>Store</h3>
+            <p>Inventory organized</p>
+        </div>
+    </div>
+
+    <!-- Pick -->
+    <div class="flow-card card-pick">
+        <div class="card-number">03</div>
+        <div class="card-icon">✓</div>
+        <div>
+            <h3>Pick</h3>
+            <p>Order prepared</p>
+        </div>
+    </div>
+
+    <!-- Pack -->
+    <div class="flow-card card-pack">
+        <div class="card-number">04</div>
+        <div class="card-icon">□</div>
+        <div>
+            <h3>Pack</h3>
+            <p>Checked & packed</p>
+        </div>
+    </div>
+
+    <!-- Dispatch -->
+    <div class="flow-card card-dispatch">
+        <div class="card-number">05</div>
+        <div class="card-icon">→</div>
+        <div>
+            <h3>Dispatch</h3>
+            <p>Ready for delivery</p>
+        </div>
+    </div>
+
+    <!-- Central order -->
+    <div class="order-card">
+
+        <div class="order-top">
+            <span>ORDER #10482</span>
+            <span class="order-status">READY</span>
+        </div>
+
+        <div class="order-divider"></div>
+
+        <div class="order-item">
+            <div class="product-box"></div>
+            <div>
+                <strong>Face Serum</strong>
+                <small>2 × units</small>
+            </div>
+        </div>
+
+        <div class="order-item">
+            <div class="product-box small-box"></div>
+            <div>
+                <strong>Face Wash</strong>
+                <small>1 × unit</small>
+            </div>
+        </div>
+
+        <div class="order-check">
+            <span>✓</span>
+            Checked & packed
+        </div>
+
+        <div class="order-footer">
+            READY FOR DISPATCH
+        </div>
+
+    </div>
+
+</div>
+    </section>
+
+
+
+
+
+    <!-- =========================
+     TRUST
+========================== -->
+
+<section class="trust">
+
+    <div class="trust-item">
+        <div class="trust-icon">📦</div>
+        <div>
+            <b data-en="Storage" data-id="Penyimpanan">Storage</b>
+            <span data-en="Safe and organized inventory"
+                  data-id="Stok aman dan terorganisir">
+                Safe and organized inventory
+            </span>
+        </div>
+    </div>
+
+    <div class="trust-item">
+        <div class="trust-icon">📥</div>
+        <div>
+            <b data-en="Receiving" data-id="Penerimaan">Receiving</b>
+            <span data-en="Goods received and checked"
+                  data-id="Barang diterima dan diperiksa">
+                Goods received and checked
+            </span>
+        </div>
+    </div>
+
+    <div class="trust-item">
+        <div class="trust-icon">⚙️</div>
+        <div>
+            <b data-en="Processing" data-id="Pemrosesan">Processing</b>
+            <span data-en="Orders handled efficiently"
+                  data-id="Pesanan diproses dengan efisien">
+                Orders handled efficiently
+            </span>
+        </div>
+    </div>
+
+    <div class="trust-item">
+        <div class="trust-icon">📦</div>
+        <div>
+            <b data-en="Pick & Pack" data-id="Pick & Pack">Pick & Pack</b>
+            <span data-en="Accurate order preparation"
+                  data-id="Persiapan pesanan yang akurat">
+                Accurate order preparation
+            </span>
+        </div>
+    </div>
+
+    <div class="trust-item">
+        <div class="trust-icon">🚚</div>
+        <div>
+            <b data-en="Shipping" data-id="Pengiriman">Shipping</b>
+            <span data-en="Ready for fast dispatch"
+                  data-id="Siap untuk dikirim">
+                Ready for fast dispatch
+            </span>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+    <!-- =========================
+         SELLING PLATFORMS
+    ========================== -->
+
+    <section class="platforms" id="platforms">
+
+        <div class="section-title platforms-title">
+            <small data-en="SELLING PLATFORMS" data-id="PLATFORM PENJUALAN">
+                SELLING PLATFORMS
+            </small>
+
+            <h2 data-en="We support your business across major selling platforms."
+                data-id="Kami mendukung bisnis Anda di berbagai platform penjualan utama.">
+                We support your business across major selling platforms.
+            </h2>
+
+            <p data-en="Orders from your online store can be prepared, checked and dispatched through Pack & Dash."
+               data-id="Pesanan dari toko online Anda dapat diproses, diperiksa, dan disiapkan untuk pengiriman melalui Pack & Dash.">
+                Orders from your online store can be prepared, checked and dispatched through Pack & Dash.
+            </p>
+        </div>
+
+        <div class="platform-grid">
+            <a class="platform-card" href="#contact">
+                <img src="jpeg/shopee.jpg" alt="Shopee">
+                <div>
+                    <h3>Shopee</h3>
+                    <p>Orders prepared by Pack & Dash.</p>
+                </div>
+            </a>
+
+            <a class="platform-card" href="#contact">
+                <img src="jpeg/tokopedia.jpg" alt="Tokopedia">
+                <div>
+                    <h3>Tokopedia</h3>
+                    <p>Orders prepared by Pack & Dash.</p>
+                </div>
+            </a>
+
+            <a class="platform-card" href="#contact">
+                <img src="jpeg/tiktokshop.jpg" alt="TikTok Shop">
+                <div>
+                    <h3>TikTok Shop</h3>
+                    <p>Orders prepared by Pack & Dash.</p>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROCESS
+    ========================== -->
+
+    <section
+        class="process"
+        id="process">
+
+        <div class="section-title">
+
+            <small
+                data-en="How it works"
+                data-id="Cara Kerja">
+
+                How it works
+
+            </small>
+
+
+
+            <h2
+                data-en="More resources for what matters"
+                data-id="Lebih banyak sumber daya untuk hal yang penting">
+
+                More resources for what matters
+
+            </h2>
+
+
+
+            <p
+                data-en="By taking care of your warehouse and order handling, we help you reduce operational costs and put more time and resources back into your product and business."
+                data-id="Dengan mengurus gudang dan penanganan pesanan Anda, kami membantu Anda mengurangi biaya operasional serta mengembalikan lebih banyak waktu dan sumber daya untuk produk dan bisnis Anda.">
+
+                By taking care of your warehouse and order handling, 
+                we help you reduce operational costs 
+                and put more time and resources back into your product and business.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="process-grid">
+
+            <div class="card">
+
+                <div class="process-icon" aria-hidden="true">📦✓</div>
+
+                <h3
+                    data-en="Simplify Your Operations"
+                    data-id="Sederhanakan Operasional Anda">
+
+                        Simplify Your Operations
+
+                </h3>
+
+                <p
+                    data-en="Keep your inventory and orders organized without managing the warehouse yourself."
+                    data-id="Jaga inventaris dan pesanan Anda tetap teratur tanpa harus mengelola gudang sendiri.">
+
+                    Keep your inventory and orders organized without managing the warehouse yourself.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="process-icon" aria-hidden="true">⏰</div>
+
+                <h3
+                    data-en="Save Time"
+                    data-id="Hemat Waktu">
+
+                    Save Time
+
+                </h3>
+
+                <p
+                    data-en="Spend less time on receiving, picking, packing and preparing orders."
+                    data-id="Hemat waktu dalam menerima, mengambil, mengemas, dan menyiapkan pesanan.">
+
+                    Spend less time on receiving, picking, packing and preparing orders.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="process-icon" aria-hidden="true">📈</div>
+
+                <h3
+                    data-en="Reduce Costs"
+                    data-id="Mengurangi Biaya">
+
+                    Reduce Costs
+
+                </h3>
+
+                <p
+                    data-en="Spend less than you would running your own warehouse, staff and packing operations."
+                    data-id="Keluarkan biaya lebih rendah dibandingkan jika Anda mengelola gudang, mempekerjakan staf, dan menangani proses packing sendiri.">
+
+                    Spend less than you would running your own warehouse, staff and packing operations.
+
+                </p>
+
+            </div>
+
+           <div class="card">
+
+                <div class="process-icon" aria-hidden="true">🌱</div>
+
+                <h3
+                    data-en="Focus on Growth"
+                    data-id="Fokus pada Pertumbuhan">
+
+                    Focus on Growth
+
+                </h3>
+
+                <p
+                    data-en="Put more time and resources into your products, customers and business."
+                    data-id="Alokasikan lebih banyak waktu dan sumber daya untuk produk, pelanggan, dan bisnis Anda.">
+
+                    Put more time and resources into your products, customers and business.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section
+        class="services"
+        id="services">
+
+        <div class="section-title services-title">
+
+            <small
+                data-en="OUR SERVICES"
+                data-id="LAYANAN KAMI">
+
+                OUR SERVICES
+
+            </small>
+
+
+
+            <h2
+                data-en="Everything your operations need."
+                data-id="Semua yang dibutuhkan operasional Anda.">
+
+                Everything your operations need.
+
+            </h2>
+
+
+
+            <p
+                data-en="From receiving your products to preparing every order for shipment, we handle the day-to-day warehouse operations so you can focus on growing your business."
+                data-id="Mulai dari menerima produk hingga menyiapkan setiap pesanan untuk dikirim, kami menangani operasional gudang sehari-hari sehingga Anda dapat fokus mengembangkan bisnis.">
+
+                From receiving your products to preparing every order
+                for shipment, we handle the day-to-day warehouse operations
+                so you can focus on growing your business.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="service-process">
+
+
+            <!-- RECEIVE -->
+
+            <div class="service-step service-one">
+
+                <div class="service-image">
+
+                    <img
+                        src="12965.jpg"
+                        alt="Receive">
+
+                </div>
+
+                <div class="service-info">
+
+                    <div class="service-icon">
+                        📦
+                    </div>
+
+                    <span class="service-number">
+                        01
+                    </span>
+
+                    <h3
+                        data-en="Receive"
+                        data-id="Terima">
+
+                        Receive
+
+                    </h3>
+
+                    <p
+                        data-en="Your products arrive and are checked into our facility."
+                        data-id="Produk Anda tiba dan diperiksa saat masuk ke fasilitas kami.">
+
+                        Your products arrive and are checked into our facility.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- STORE -->
+
+            <div class="service-step service-two">
+
+                <div class="service-image">
+
+                    <img
+                        src="store.jpg"
+                        alt="Store">
+
+                </div>
+
+                <div class="service-info">
+
+                    <div class="service-icon">
+                        ▦
+                    </div>
+
+                    <span class="service-number">
+                        02
+                    </span>
+
+                    <h3
+                        data-en="Store"
+                        data-id="Simpan">
+
+                        Store
+
+                    </h3>
+
+                    <p
+                        data-en="Your inventory is organized and stored securely."
+                        data-id="Stok Anda diatur dan disimpan dengan aman.">
+
+                        Your inventory is organized and stored securely.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PICK -->
+
+            <div class="service-step service-three">
+
+                <div class="service-image">
+
+                    <img
+                        src="pick.jpg"
+                        alt="Pick">
+
+                </div>
+
+                <div class="service-info">
+
+                    <div class="service-icon">
+                        🛒
+                    </div>
+
+                    <span class="service-number">
+                        03
+                    </span>
+
+                    <h3
+                        data-en="Pick"
+                        data-id="Ambil">
+
+                        Pick
+
+                    </h3>
+
+                    <p
+                        data-en="We pick the right products for every order."
+                        data-id="Kami mengambil produk yang tepat untuk setiap pesanan.">
+
+                        We pick the right products for every order.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CHECK & PACK -->
+
+            <div class="service-step service-four">
+
+                <div class="service-image">
+
+                    <img
+                        src="packing.jpg"
+                        alt="Check and Pack">
+
+                </div>
+
+                <div class="service-info">
+
+                    <div class="service-icon">
+                        ✓
+                    </div>
+
+                    <span class="service-number">
+                        04
+                    </span>
+
+                    <h3
+                        data-en="Check & Pack"
+                        data-id="Periksa & Kemas">
+
+                        Check & Pack
+
+                    </h3>
+
+                    <p
+                        data-en="Every order is checked, packed and prepared carefully."
+                        data-id="Setiap pesanan diperiksa, dikemas, dan disiapkan dengan teliti.">
+
+                        Every order is checked, packed and prepared carefully.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DISPATCH -->
+
+            <div class="service-step service-five">
+
+                <div class="service-image">
+
+                    <img
+                        src="dispatch.jpg"
+                        alt="Dispatch">
+
+                </div>
+
+                <div class="service-info">
+
+                    <div class="service-icon">
+                        🚚
+                    </div>
+
+                    <span class="service-number">
+                        05
+                    </span>
+
+                    <h3
+                        data-en="Dispatch"
+                        data-id="Kirim">
+
+                        Dispatch
+
+                    </h3>
+
+                    <p
+                        data-en="Your order is ready for courier collection and delivery."
+                        data-id="Pesanan Anda siap untuk diambil kurir dan dikirim.">
+
+                        Your order is ready for courier collection and delivery.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+         WHY PACK & DASH
+    ========================== -->
+
+    <section
+        class="why"
+        id="about">
+
+        <div class="why-content">
+
+            <div class="why-heading">
+
+                <small
+                    data-en="WHY PACK & DASH?"
+                    data-id="KENAPA PACK & DASH?">
+
+                    WHY PACK & DASH?
+
+                </small>
+
+
+
+                <h2
+                    data-en="More resources for what matters most."
+                    data-id="Lebih banyak sumber daya untuk hal yang paling penting.">
+
+                    More resources for what matters most.
+
+                </h2>
+
+
+
+                <p
+                    data-en="We manage your warehouse, inventory and order operations, helping you reduce operational costs and put more resources into what matters most — your product and your business."
+                    data-id="Kami menangani gudang, inventaris, dan operasional pesanan Anda, membantu mengurangi biaya operasional dan mengalokasikan lebih banyak sumber daya untuk hal yang paling penting — produk dan bisnis Anda.">
+
+                    We manage your warehouse, inventory and order operations,
+                    helping you reduce operational costs and put more resources
+                    into what matters most — your product and your business.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="why-features">
+
+                <div class="why-feature">
+
+                    <div class="why-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <h3
+                            data-en="Reduce Operational Costs"
+                            data-id="Kurangi Biaya Operasional">
+
+                            Reduce Operational Costs
+
+                        </h3>
+
+                        <p
+                            data-en="Less overhead from managing your own warehouse and packing operations."
+                            data-id="Kurangi biaya dan beban dari mengelola gudang dan operasional packing sendiri.">
+
+                            Less overhead from managing your own warehouse
+                            and packing operations.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="why-feature">
+
+                    <div class="why-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <h3
+                            data-en="Focus on Your Business"
+                            data-id="Fokus pada Bisnis Anda">
+
+                            Focus on Your Business
+
+                        </h3>
+
+                        <p
+                            data-en="Spend more time on sales, customers, products and marketing."
+                            data-id="Luangkan lebih banyak waktu untuk penjualan, pelanggan, produk, dan pemasaran.">
+
+                            Spend more time on sales, customers,
+                            products and marketing.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="why-feature">
+
+                    <div class="why-number">
+                        03
+                    </div>
+
+                    <div>
+
+                        <h3
+                            data-en="Invest & Grow"
+                            data-id="Investasi & Berkembang">
+
+                            Invest & Grow
+
+                        </h3>
+
+                        <p
+                            data-en="Put more of your resources back into improving and growing your business."
+                            data-id="Gunakan lebih banyak sumber daya Anda untuk meningkatkan dan mengembangkan bisnis.">
+
+                            Put more of your resources back into improving
+                            and growing your business.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="why-feature">
+
+    <div class="why-number">
+        04
+    </div>
+
+    <div>
+
+        <h3
+            data-en="Fair Pricing"
+            data-id="Harga yang Adil">
+
+            Fair Pricing
+
+        </h3>
+
+        <p
+            data-en="Simple, transparent pricing that helps you control costs and invest more in growing your business."
+            data-id="Harga sederhana dan transparan yang membantu Anda mengontrol biaya dan berinvestasi lebih banyak untuk mengembangkan bisnis.">
+
+            Simple, transparent pricing that helps you control costs
+            and invest more in growing your business.
+
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="why-feature">
+
+    <div class="why-number">
+        05
+    </div>
+
+    <div>
+
+        <h3
+            data-en="Your Products, Safe & Secure"
+            data-id="Produk Anda, Aman & Terlindungi">
+
+            Your Products, Safe & Secure
+
+        </h3>
+
+        <p
+            data-en="We handle your inventory with care, keeping your products organized, protected and ready for every order."
+            data-id="Kami menangani inventaris Anda dengan hati-hati, menjaganya tetap teratur, terlindungi, dan siap untuk setiap pesanan.">
+
+            We handle your inventory with care, keeping your products
+            organized, protected and ready for every order.
+
+        </p>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
+
+    <section class="cta">
+
+        <small
+            data-en="READY TO GET STARTED?"
+            data-id="SIAP UNTUK MEMULAI?">
+
+            READY TO GET STARTED?
+
+        </small>
+
+
+
+        <h2
+            data-en="You sell. We handle the operations."
+            data-id="Anda berjualan. Kami menangani operasionalnya.">
+
+            You sell. We handle the operations.
+
+        </h2>
+
+
+
+        <p
+            data-en="Tell us about your business and see how Pack & Dash can help."
+            data-id="Ceritakan tentang bisnis Anda dan lihat bagaimana Pack & Dash dapat membantu.">
+
+            Tell us about your business and see how Pack & Dash can help.
+
+        </p>
+
+
+
+        <a
+            href="#contact"
+            class="button light"
+            data-en="Get Started →"
+            data-id="Mulai Sekarang →">
+
+            Get Started →
+
+        </a>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section
+        class="contact"
+        id="contact">
+
+        <div class="contact-info">
+
+            <small
+                data-en="GET IN TOUCH"
+                data-id="HUBUNGI KAMI">
+
+                GET IN TOUCH
+
+            </small>
+
+
+
+            <h2
+                data-en="Let's talk about your business."
+                data-id="Mari bicarakan bisnis Anda.">
+
+                Let's talk about your business.
+
+            </h2>
+
+
+
+            <p
+                data-en="Tell us about your business and what you need. Our team will get back to you."
+                data-id="Ceritakan tentang bisnis Anda dan kebutuhan Anda. Tim kami akan menghubungi Anda.">
+
+                Tell us about your business and what you need.
+                Our team will get back to you.
+
+            </p>
+
+        </div>
+
+
+
+        <form id="contactForm" action="https://formspree.io/f/mbgdjrye" method="POST">
+
+    <input 
+        type="text"
+        name="full_name"
+        data-placeholder-en="Full name"
+        data-placeholder-id="Nama lengkap"
+        placeholder="Full name"
+        required>
+
+
+    <input 
+        type="text"
+        name="business_name"
+        data-placeholder-en="Business name"
+        data-placeholder-id="Nama bisnis"
+        placeholder="Business name"
+        required>
+
+
+    <input 
+        type="tel"
+        name="phone"
+        data-placeholder-en="Phone number"
+        data-placeholder-id="Nomor telepon"
+        placeholder="Phone number"
+        required>
+
+
+    <input 
+        type="email"
+        name="email"
+        data-placeholder-en="Email address"
+        data-placeholder-id="Alamat email"
+        placeholder="Email address"
+        required>
+
+
+    <select 
+        id="industry"
+        name="industry"
+        required>
+
+        <option 
+            value=""
+            data-en="Select your industry"
+            data-id="Pilih industri Anda">
+
+            Select your industry
+
+        </option>
+
+        <option 
+            value="fashion"
+            data-en="Fashion & Apparel"
+            data-id="Fashion & Pakaian">
+
+            Fashion & Apparel
+
+        </option>
+
+        <option 
+            value="beauty"
+            data-en="Beauty & Cosmetics"
+            data-id="Kecantikan & Kosmetik">
+
+            Beauty & Cosmetics
+
+        </option>
+
+        <option 
+            value="food"
+            data-en="Food & Beverage"
+            data-id="Makanan & Minuman">
+
+            Food & Beverage
+
+        </option>
+
+        <option 
+            value="electronics"
+            data-en="Electronics"
+            data-id="Elektronik">
+
+            Electronics
+
+        </option>
+
+        <option 
+            value="health"
+            data-en="Health & Wellness"
+            data-id="Kesehatan & Wellness">
+
+            Health & Wellness
+
+        </option>
+
+        <option 
+            value="home"
+            data-en="Home & Lifestyle"
+            data-id="Rumah & Lifestyle">
+
+            Home & Lifestyle
+
+        </option>
+
+        <option 
+            value="other"
+            data-en="Other"
+            data-id="Lainnya">
+
+            Other
+
+        </option>
+
+    </select>
+
+
+    <select 
+        id="orders"
+        name="orders_per_day"
+        required>
+
+        <option 
+            value=""
+            data-en="Average orders per day"
+            data-id="Rata-rata pesanan per hari">
+
+            Average orders per day
+
+        </option>
+
+        <option 
+            value="1-10"
+            data-en="1–10 orders"
+            data-id="1–10 pesanan">
+
+            1–10 orders
+
+        </option>
+
+        <option 
+            value="11-50"
+            data-en="11–50 orders"
+            data-id="11–50 pesanan">
+
+            11–50 orders
+
+        </option>
+
+        <option 
+            value="51-100"
+            data-en="51–100 orders"
+            data-id="51–100 pesanan">
+
+            51–100 orders
+
+        </option>
+
+        <option 
+            value="101-500"
+            data-en="101–500 orders"
+            data-id="101–500 pesanan">
+
+            101–500 orders
+
+        </option>
+
+        <option 
+            value="500+"
+            data-en="500+ orders"
+            data-id="500+ pesanan">
+
+            500+ orders
+
+        </option>
+
+    </select>
+
+
+    <textarea 
+        name="business_details"
+        data-placeholder-en="Tell us about your business..."
+        data-placeholder-id="Ceritakan tentang bisnis Anda..."
+        placeholder="Tell us about your business..."
+        rows="5"></textarea>
+
+
+    <button 
+        class="button"
+        type="submit"
+        data-en="Send Request →"
+        data-id="Kirim Permintaan →">
+
+        Send Request →
+
+    </button>
+
+</form>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-top">
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+
+                    <img src="jpeg/logo.jpeg" alt="Pack & Dash Logo">
+
+                    <span>Pack & Dash</span>
+
+                </div>
+
+                <p class="footer-description">
+                    Smart logistics solutions for growing online businesses.
+                </p>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+
+                <a href="#services">Services</a>
+
+                <a href="#How it works">How it works</a>
+
+                <a href="#about">About Us</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <!-- GET IN TOUCH -->
+
+            <div class="footer-column">
+
+                <h3>Get in Touch</h3>
+
+                <div class="footer-contact">
+
+                    <div class="footer-contact-item">
+
+                        <strong>Location</strong>
+
+                        <p>
+                            Jl. Villa Bekasi Indah 2 F No.5<br>
+                            Kabupaten Bekasi, Jawa Barat 17510
+                        </p>
+
+                    </div>
+
+
+                    <div class="footer-contact-item">
+
+                        <strong>WhatsApp</strong>
+
+                        <p>
+                            +62 813-3265-2598
+                        </p>
+
+                    </div>
+
+
+                    <div class="footer-contact-item">
+
+                        <strong>Email</strong>
+
+                        <p>
+                            packndash.id@gmail.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- INSTAGRAM -->
+
+                <div class="footer-instagram">
+
+                    <div class="footer-divider"></div>
+
+                    <a
+                        href="https://www.instagram.com/pack.and.dash?stkn=MWJoNWI4a2M0bHNpeg=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    aria-label="Instagram">
+                        <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+                        </svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="footer-copyright">
+
+            <small>
+                © 2026 Pack & Dash. All rights reserved.
+            </small>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+
+    <!-- =========================
+         WHATSAPP BUTTON
+    ========================== -->
+
+    <a
+        href="https://wa.me/6281332652598"
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with Pack & Dash on WhatsApp">
+
+        <svg
+            class="whatsapp-icon"
+            viewBox="0 0 32 32"
+            aria-hidden="true">
+
+            <path
+                fill="currentColor"
+                d="M19.11 17.2c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.15-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.26s.98 2.62 1.11 2.8c.14.18 1.93 2.95 4.67 4.13.65.28 1.16.45 1.56.58.66.21 1.26.18 1.74.11.53-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z" />
+
+            <path
+                fill="currentColor"
+                d="M16.03 3.2c-7.05 0-12.77 5.72-12.77 12.77 0 2.25.59 4.45 1.71 6.39L3.2 28.8l6.6-1.73a12.7 12.7 0 0 0 6.23 1.62h.01c7.05 0 12.77-5.72 12.77-12.77S23.08 3.2 16.03 3.2zm0 23.39h-.01a10.6 10.6 0 0 1-5.4-1.47l-.39-.23-3.91 1.03 1.04-3.81-.25-.4a10.62 10.62 0 1 1 8.92 4.88z" />
+
+        </svg>
+
+
+
+        <span
+            data-en="Chat with us"
+            data-id="Chat dengan kami">
+
+            Chat with us
+
+        </span>
+
+    </a>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
